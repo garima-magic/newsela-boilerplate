@@ -1,23 +1,17 @@
-# webpack 4 React boilerplate [![GitHub license](https://img.shields.io/badge/license-MIT-lime.svg)](https://github.com/FerJSsilva/webpack-4-react-boilerplate/blob/master/LICENSE)
 
 A simple and complete Webpack 4 React Boilerplate.
 
-* Ready to start React App :zap:
-* Image loader configured :camera:
+* Redux integrated
+* Plop for component generation
+* Error handling using error boundaries React
+* Logging the errors
+* Nodejs server added and configured to run concurrently
+* Webpack configured
+* Routing integrated
 * SASS and CSS loaders configured :art:
 * Hot reload configured :sunny:
 * Unit test tools configured :microscope:
 * Production build optimized :chart_with_upwards_trend:
-
-## Motivation
-
-The purpose of this boilerplate is help to create new apps and projects. It's _easy to customize_ and if you need help to understand you can check the commits for a _step-by-step_ guide.
-
-It´s a solid base which will help to understand webpack [core concepts](https://webpack.js.org/concepts/).
-
-## Getting Started
-
-To start you can simply [download](https://github.com/FerJSsilva/webpack-4-react-boilerplate/archive/master.zip) the boilerplate and unzip it into your working directory. You can also clone if you want to contribute.
 
 ### Prerequisites
 
@@ -73,9 +67,12 @@ It´s possible to check the size and content of your bundled file. To do this ru
 yarn analyze
 ```
 
-That´s it! Remember to change the project information in package.json, README and LICENSE if necessary. :mortar_board:
+## Generate component
 
-Give the project a star if you liked it. Happy Hacking! :sunglasses: :star:
+```CLI
+npm run generate
+```
+and follow the further instructions
 
 ## Built With
 
@@ -85,6 +82,9 @@ Give the project a star if you liked it. Happy Hacking! :sunglasses: :star:
 * [Yarn](https://yarnpkg.com) - Dependency Management
 * [Jest](https://jestjs.io/) - JavaScript Testing
 * [Enzyme](https://airbnb.io/enzyme/docs/api/) - Component tests for React
+* Redux
+* Plop
+* Nodejs
 
 ## Contributing
 
@@ -92,12 +92,6 @@ Suggestions or pull requests are welcome.
 
 For major changes, please open an issue first to discuss what you would like to change.
 
-## Versions
-
-* v1.0 - A complete webpack 4 configuration
-* v1.1 - Production build optimization
-
-Click [here](https://github.com/FerJSsilva/webpack-4-react-boilerplate/tags) to see or download the project in a specific tag.
 
 ## License
 
